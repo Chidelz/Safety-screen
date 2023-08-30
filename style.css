@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+}
+
+.photo img {
+    width: 200px;
+    margin: 0;
+    padding-left: 0.5em;
+    padding: -1;
+}
+
+.profile {
+    outline: 2px solid rgb(23, 120, 126);
+}
+
+.interest {
+    line-height: 200%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(190, 234, 236);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 0.5em;
+    height: 72px;
+    margin-bottom: 0.5em;
+}
+
+.about {
+    outline: 2px solid rgb(23, 120, 126);
+}
+
+h1 {
+    line-height: 200%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(23, 120, 126);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 0.5em;
+    height: 72px;
+    /* margin-bottom: 0.5em; */
+}
+
+ul {
+    background-color: rgb(91, 184, 187);
+    color: rgb(255, 255, 255);
+    padding-left: 0em;
+    margin-right: 120px;
+    background-position: left;
+    display: grid;
+    padding: -1;
+}
+
+ol {
+    color: dimgrey;
+    font-size: large;
+    padding-left: 0em;
+    /* margin-right: 120px; */
+    display: grid;
+    margin-left: 10px;
+    padding-top: 0.5px;
+    padding-bottom: 15px;
+    scroll-margin-block-start: 10px;
+    background-position: left;
+    padding: -1;
+}
+
+body {
+    background-color: white;
+    color: dimgray;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.title {
+    color: rgb(1, 9, 12);
+    font-size: 1.2em;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+footer {
+    font-size: .70em;
+    color: dimgray;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    margin-left: 170px;
+}
+
+html {
+    border: 5px solid;
+    color: rgb(23, 120, 126);
+}
+
+.container {
+    background-color: black;
+}
+
+
+#webpage-iframe {
+    width: 100%;
+    height: 700;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
